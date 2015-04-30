@@ -10,5 +10,6 @@
     <body>
         <p><%=new Date()%></p>
         <h1>Start polygraphy</h1>
+        <h1>IDEA COMMIT</h1>
     </body>
 </html>
