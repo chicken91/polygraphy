@@ -1,5 +1,6 @@
 package main.java.controller;
 
+import main.java.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ public class MainController {
 
     @RequestMapping("/index.po")
     public String main(HttpSession session, Model model) throws IllegalArgumentException {
+        model.addAttribute("user", new User());
         return "index";
     }
 

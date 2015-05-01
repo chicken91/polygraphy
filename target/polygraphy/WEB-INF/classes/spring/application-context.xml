@@ -16,6 +16,7 @@
 
     <!-- пошук папок в яких будем шукати біни- компоненти -->
     <context:component-scan base-package="main.java.dao"/>
+    <context:component-scan base-package="main.java.service"/>
     <beans:import resource="classpath:\hibernate\dbConfig.xml"/>
 
     <!-- schedule service refresh :

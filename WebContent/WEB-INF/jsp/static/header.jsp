@@ -3,10 +3,10 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-4">
-            <p>Логотип</p>
+            <p align="center">LOGO</p>
         </div>
         <div class="col-xs-8">
-            <p>Остальной контент хедера</p>
+            <p align="center">Header content</p>
         </div>
     </div>
     <hr>
