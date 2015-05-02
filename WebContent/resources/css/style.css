@@ -1,21 +1,49 @@
-.main{
-    height: 600px;
-}
-
-/*.footer{
-    min-width: 800px;;
-}*/
-
-.form-main{
-    width: 300px;
-    /*margin: auto;*/
-    margin-right: auto;
+/*---For all pages selector---*/
+.wrapper{
+    width: 1024px;
+    min-height: 768px;
     margin-left: auto;
-    margin-top: 150px;
-
+    margin-right: auto;
 }
 
+.main-block{
+    width: 1024px;
+    min-height: 480px;
+}
+.main-header{
+    width: 1024px;
+}
+.main-footer{
+    width: 1024px;
+}
 .btn-cfg{
     background: rgba(152, 210, 245, 1);
     margin: 5px;
 }
+
+/*---index.jsp selector---*/
+.main{
+    min-width: 400px;
+    height: 600px;
+}
+.form-main{
+    width: 400px;
+    /*margin: auto;*/
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+}
+
+/*---start.jsp selector---*/
+.form-order{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.order-label{
+    float: left;
+}
+
+
+

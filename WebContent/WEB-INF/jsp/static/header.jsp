@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-4">
-            <p align="center">LOGO</p>
+<div class="container main-header">
+    <div class="navbar navbar-default">
+        <div class="navbar-brand">
+            <p class="h4 text-center">Polygraphy Application</p>
         </div>
-        <div class="col-xs-8">
-            <p align="center">Header content</p>
+        <div class="navbar-collapse">
+            User
         </div>
     </div>
     <hr>
