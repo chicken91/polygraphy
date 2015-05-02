@@ -5,7 +5,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .main-block{
     width: 1024px;
     min-height: 480px;
@@ -20,12 +19,29 @@
     background: rgba(152, 210, 245, 1);
     margin: 5px;
 }
+.form-block{
+    width: 100%;
+    overflow: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-element{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.form-label{
+    float: left;
+    width: calc(20% - 5px);
+}
+.form-label > LABEL{
+    float: right;
+}
+.form-input{
+    float: left;
+    width: calc(80% - 5px);
+}
 
 /*---index.jsp selector---*/
-.main{
-    min-width: 400px;
-    height: 600px;
-}
 .form-main{
     width: 400px;
     /*margin: auto;*/
@@ -40,10 +56,5 @@
     margin-right: auto;
     margin-left: auto;
 }
-
-.order-label{
-    float: left;
-}
-
 
 

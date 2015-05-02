@@ -14,12 +14,14 @@
         <jsp:include page="../static/header.jsp" />
         <div class="container main-block">
             <div class="form-order">
-                <form class="form-horizontal">
+                <form>
                     <div class="h3 text-center">New order</div>
-                    <div class="form-group">
-                        <label class="col-xs-3 control-label" for="selectName">Name: </label>
-                        <div class="col-xs-9">
-                            <select class="form-control" id="selectName">
+                    <div class="form-block">
+                        <div class="form-label">
+                            <label class="form-element" for="selectName">Name: </label>
+                        </div>
+                        <div class="form-input">
+                            <select class="form-control form-element" id="selectName">
                                 <option>Name 1</option>
                                 <option>Name 2</option>
                                 <option>Name 3</option>
@@ -28,16 +30,20 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-xs-3 control-label" for="inputDate">Order date: </label>
-                        <div class="col-xs-9">
-                            <input type="date" class="form-control" id="inputDate"/>
+                    <div class="form-block">
+                        <div class="form-label">
+                            <label class="form-element" for="inputDate">Order date: </label>
+                        </div>
+                        <div class="form-input">
+                            <input type="date" class="form-control form-element" id="inputDate"/>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-xs-3 control-label" for="selectClient">Client: </label>
-                        <div class="col-xs-9">
-                            <select class="form-control col-xs-10" id="selectClient">
+                    <div class="form-block">
+                        <div class="form-label">
+                            <label class="form-element" for="selectClient">Client: </label>
+                        </div>
+                        <div class="form-input">
+                            <select class="form-control form-element" id="selectClient">
                                 <option>Client 1</option>
                                 <option>Client 2</option>
                                 <option>Client 3</option>
@@ -46,17 +52,19 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-xs-3 control-label" for="productType">Product type: </label>
-                        <div class="col-xs-9">
-                            <select class="form-control" id="productType">
+                    <div class="form-block">
+                        <div class="form-label">
+                            <label class="form-element" for="productType">Product type: </label>
+                        </div>
+                        <div class="form-input">
+                            <select class="form-control form-element" id="productType">
                                 <option>Type 1</option>
                                 <option>Type 2</option>
                                 <option>Type 3</option>
                             </select>
                         </div>
                     </div>
-                    <div class="form-group text-center">
+                    <div class="form-block text-center">
                         <button class="btn btn-cfg" type="submit">Next</button>
                     </div>
                 </form>
