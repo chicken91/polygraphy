@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="form-block text-center">
-                        <button class="btn btn-cfg" type="submit">Next</button>
+                        <button class="btn btn-cfg" type="button">Next</button>
                     </div>
                 </form>
             </div>

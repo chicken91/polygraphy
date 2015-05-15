@@ -13,14 +13,14 @@ public class Main {
         UserDAO userDAO= context.getBean("UserDAO", UserDAO.class);
         UserService userService = context.getBean("UserService", UserService.class);
 
-        /*User user = new User();
-        user.setUserId(1);
-        user.setUsername("chicken91");
-        user.setPassword("psp003670");
-        user.setConfirmPassword("psp003670");
+        User user = new User();
+        user.setUserId(3);
+        user.setUsername("chicken");
+        user.setPassword("qwerty");
+        user.setConfirmPassword("qwerty");
         user.setEmail("chicken91@ukr.net");
         user.setNickname("Kulishenko");
-        userService.addUser(user);*/
+        userService.addUser(user);
 
         System.out.println(userDAO.getUserByUsername("fdsfsdf"));
     }

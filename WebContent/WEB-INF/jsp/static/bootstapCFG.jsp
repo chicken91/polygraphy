@@ -12,5 +12,5 @@
 <link rel="stylesheet" href="${resources}css/bootstrap-theme.css">
 <%--<link rel="stylesheet" href="${resources}css/non-responsive.css">--%>
 
+<script src="${resources}js/jquery-2.1.3.js"></script>
 <script src="${resources}js/bootstrap.js"></script>
-<script src="http://code.jquery.com/jquery-2.1.1.js"></script>

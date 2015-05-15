@@ -11,9 +11,11 @@
 }
 .main-header{
     width: 1024px;
+    max-height: 100px;
 }
 .main-footer{
     width: 1024px;
+    max-height: 100px;
 }
 .btn-cfg{
     background: rgba(152, 210, 245, 1);

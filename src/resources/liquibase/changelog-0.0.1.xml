@@ -11,10 +11,9 @@
             New changelog
         </comment>
         <sql>
-            <!--#
-            INSERT INTO `roles` (roleId, role, userId) VALUES ('2', 'ROLE_TEACHER', '2');
-            INSERT INTO `roles` (roleId, role, userId) VALUES ('3', 'ROLE_TEACHER', '3');-->
-
+            # add new users
+            INSERT INTO `users` (id, username, password, nickname) VALUES ('1', 'chicken91', '$2a$10$/tJR.G48XDLTpz/Mrz9utOhEqgkj.cDzESgZE/4zAs97wp.7dJJ1G', 'chicken');
+            INSERT INTO `users` (id, username, password, nickname) VALUES ('2', 'admin', '$2a$10$XKUrltMvMTysN0SZlNy9FOzn28XnlaA80657i9tSqWmS4wlY0Y.cO', 'Serega-admin');
         </sql>
     </changeSet>
 </databaseChangeLog>
