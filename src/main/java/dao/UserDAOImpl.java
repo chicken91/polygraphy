@@ -1,6 +1,6 @@
 package main.java.dao;
 
-import main.java.entity.User;
+import main.java.model.User;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate4.support.HibernateDaoSupport;

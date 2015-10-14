@@ -1,11 +1,6 @@
 package main.java.service;
 
-
-
-import main.java.entity.User;
-
-import java.util.List;
-
+import main.java.model.User;
 
 public interface UserService {
 

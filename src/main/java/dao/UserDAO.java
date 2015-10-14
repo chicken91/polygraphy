@@ -1,7 +1,7 @@
 package main.java.dao;
 
 import java.util.List;
-import main.java.entity.User;
+import main.java.model.User;
 
 public interface UserDAO {
     void createUser(User user);

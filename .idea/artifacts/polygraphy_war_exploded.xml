@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="polygraphy:war exploded">
-    <output-path>$PROJECT_DIR$/target/polygraphy</output-path>
+    <output-path>$PROJECT_DIR$/target/Polygraphy</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -66,10 +66,11 @@
           <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-8" />
           <element id="library" level="project" name="Maven: classworlds:classworlds:1.1-alpha-2" />
           <element id="library" level="project" name="Maven: org.liquibase:liquibase-core:3.3.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/Polygraphy/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="polygraphy/web/Web" />
     </root>

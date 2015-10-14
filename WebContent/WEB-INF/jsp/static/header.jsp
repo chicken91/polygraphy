@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 
 <div class="container main-header">
     <nav class="navbar navbar-default" role="navigation" style="max-height: 70px">
@@ -19,7 +19,7 @@
                         <li><a href="#">Другое действие</a></li>
                         <li><a href="#">Что-то еще</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Отдельная ссылка</a></li>
+                        <li><a href="Logout.po">Выйти</a></li>
                     </ul>
                 </li>
             </ul>

@@ -1,11 +1,10 @@
 package main.java.service;
 
 import main.java.dao.UserDAO;
-import main.java.entity.User;
+import main.java.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import java.util.List;
 
 @Service("UserService")
 public class UserServiceImpl implements UserService {

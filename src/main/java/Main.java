@@ -1,7 +1,7 @@
 package main.java;
 
 import main.java.dao.UserDAO;
-import main.java.entity.User;
+import main.java.model.User;
 import main.java.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;

@@ -7,7 +7,7 @@
 
 <html>
 <head>
-    <jsp:include page="static/bootstapCFG.jsp"/>
+    <jsp:include page="../static/bootstapCFG.jsp"/>
     <link rel="stylesheet" href="${resources}css/style.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
             </form>
         </div>
     </div>
-    <jsp:include page="static/footer.jsp"/>
+    <jsp:include page="../static/footer.jsp"/>
 </div>
 </body>
 </html>
