@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf500f71-f96f-4694-8014-d9465367364c" name="Default" comment="работа над хедером start.jsp">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/SecurityController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/UserAuth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/UserDetailsServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/security/login.jsp" />
-      <change type="DELETED" beforePath="E:\Projects\polygraphy\src\main\java\controller\AuthorizationController.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\polygraphy\src\main\java\controller\MainController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/filters/URLFilter.java" afterPath="$PROJECT_DIR$/src/main/java/filters/URLFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/static/bootstapCFG.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/static/bootstapCFG.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/liquibase/changelog-0.0.1.xml" afterPath="$PROJECT_DIR$/src/resources/liquibase/changelog-0.0.1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/hibernate/dbConfig.xml" afterPath="$PROJECT_DIR$/src/resources/hibernate/dbConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/static/footer.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/static/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/static/header.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/static/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/resources/js/jquery-2.1.3.js" afterPath="$PROJECT_DIR$/WebContent/resources/js/jquery-2.1.3.js" />
+    <list default="true" id="cf500f71-f96f-4694-8014-d9465367364c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polygraphy.iml" afterPath="$PROJECT_DIR$/polygraphy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/polygraphy_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/polygraphy_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/polygraphy_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/polygraphy_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/spring/security.xml" afterPath="$PROJECT_DIR$/src/resources/spring/security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/application/start.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/application/start.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Projects\polygraphy\WebContent\WEB-INF\jsp\application\not-authorized.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/security/not-authorized.jsp" />
-      <change type="MOVED" beforePath="E:\Projects\polygraphy\src\main\java\entity\User.java" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" />
     </list>
     <ignored path="polygraphy.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -636,7 +606,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/hibernate/dbConfig.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
@@ -646,6 +616,8 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -982,7 +954,7 @@
       <workItem from="1431711065157" duration="1916000" />
       <workItem from="1431715478656" duration="113000" />
       <workItem from="1444729221497" duration="326000" />
-      <workItem from="1444813318775" duration="6557000" />
+      <workItem from="1444813318775" duration="7029000" />
     </task>
     <task id="LOCAL-00001" summary="test idea commit">
       <created>1430429980752</created>
@@ -1020,11 +992,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430573933629</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added basic Security">
+      <created>1444820007129</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1444820007129</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81452000" />
+    <option name="totallyTimeSpent" value="81924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1084,7 +1062,8 @@
     <MESSAGE value="редактирована авторизация и созданны две страницы перехода start.jsp и not-authorized.jsp" />
     <MESSAGE value="сделана форма стартовой страницы start.jsp" />
     <MESSAGE value="работа над хедером start.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="работа над хедером start.jsp" />
+    <MESSAGE value="added basic Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="added basic Security" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
