@@ -1,12 +1,7 @@
 package main.java.model;
 
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.Transient;
+import javax.persistence.*;
 
 
 @Entity
@@ -35,11 +30,11 @@ public class User {
         this.confirmPassword = "";
         this.nickname = "N/A";
         this.email = "N/A";
-        this.role = "ROLE_USER";
+        this.role = Role.ROLE_USER;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "User: {" + username + ", " + nickname + ", " + email + ", " + password + "}";
     }
 

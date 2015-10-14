@@ -5,7 +5,7 @@ import org.springframework.security.core.GrantedAuthority;
 
 import java.util.Collection;
 
-public class UserAuth extends org.springframework.security.core.userdetails.User{
+public class UserAuth extends org.springframework.security.core.userdetails.User {
     private String nickname;
 
     public UserAuth(String username, String password, Collection<? extends GrantedAuthority> authorities) {

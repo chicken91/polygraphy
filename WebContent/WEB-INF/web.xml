@@ -4,7 +4,7 @@
          id="WebApp_ID"
          version="3.1">
     <welcome-file-list>
-        <welcome-file>login.po</welcome-file>
+        <welcome-file>Security/Login.po</welcome-file>
     </welcome-file-list>
     <context-param>
         <param-name>contextConfigLocation</param-name>

@@ -1,4 +1,3 @@
-/*---For all pages selector---*/
 .wrapper{
     width: 1024px;
     min-height: 768px;
@@ -43,7 +42,7 @@
     width: calc(80% - 5px);
 }
 
-/*---index.jsp selector---*/
+
 .form-main{
     width: 400px;
     /*margin: auto;*/
@@ -52,7 +51,7 @@
     margin-top: 150px;
 }
 
-/*---start.jsp selector---*/
+
 .form-order{
     width: 600px;
     margin-right: auto;

@@ -1,37 +1,31 @@
-package main.java.service;
+package main.java.service.impl;
 
-import main.java.dao.UserDAO;
+import main.java.dao.impl.UserDAO;
 import main.java.model.User;
+import main.java.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-@Service("UserService")
-public class UserServiceImpl implements UserService {
+@Service("userService")
+public class UserServiceImpl implements IUserService {
 
     @Autowired
     private UserDAO userDAO;
 
     @Override
-    public void addUser(User user) {
+    @Transactional
+    public void createUser(User user) {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         user.setPassword(encoder.encode(user.getPassword()));
-        userDAO.createUser(user);
+        userDAO.create(user);
     }
 
     @Override
+    @Transactional
     public User getUserByUsername(String username) {
         return userDAO.getUserByUsername(username);
-    }
-
-    @Override
-    public boolean checkUser(User user) {
-        User userFromDB = userDAO.getUserByUsername(user.getUsername());
-        if(userFromDB != null && new BCryptPasswordEncoder().matches(user.getPassword(), userFromDB.getPassword())){
-            return true;
-        } else {
-            return false;
-        }
     }
 
 }

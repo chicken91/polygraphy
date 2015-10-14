@@ -7,10 +7,10 @@
            http://www.springframework.org/schema/security/spring-security.xsd">
     <global-method-security pre-post-annotations="enabled" />
     <http use-expressions="true">
-        <access-denied-handler error-page="/AccessDenied.po" />
-        <intercept-url pattern="/StartApplication**" access="isAuthenticated()" />
-        <form-login login-page="/Login.po" authentication-failure-url="/NotAuthorized.po" always-use-default-target="true" default-target-url="/StartApplication.po"/>
-        <logout logout-url="/Logout.po" />
+        <access-denied-handler error-page="/Security/AccessDenied.po" />
+        <intercept-url pattern="/Application/Form**" access="isAuthenticated()" />
+        <form-login login-page="/Security/Login.po" authentication-failure-url="/Security/NotAuthorized.po" always-use-default-target="true" default-target-url="/Application/Form.po"/>
+        <logout logout-url="/Security/Logout.po" />
     </http>
 
     <authentication-manager>
@@ -19,6 +19,6 @@
         </authentication-provider>
     </authentication-manager>
 
-    <beans:bean id="userDetailsService" class="main.java.service.UserDetailsServiceImpl"/>
+    <beans:bean id="userDetailsService" class="main.java.service.impl.UserDetailsServiceImpl"/>
 
 </beans:beans>

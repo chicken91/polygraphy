@@ -2,9 +2,9 @@ package main.java.service;
 
 import main.java.model.User;
 
-public interface UserService {
+public interface IUserService {
 
-    void addUser(User user);
+    void createUser(User user);
+
     User getUserByUsername(String username);
-    boolean checkUser(User user);
 }

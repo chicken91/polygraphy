@@ -3,7 +3,7 @@
 <div class="container main-header">
     <nav class="navbar navbar-default" role="navigation" style="max-height: 70px">
         <div class="navbar-header">
-            <a class="navbar-brand" href="index.po">Polygraphy LOGO</a>
+            <a class="navbar-brand" href="Application/Form.po">Polygraphy LOGO</a>
         </div>
 
         <div class="h3 navbar-text" style="float: left">
@@ -19,7 +19,7 @@
                         <li><a href="#">Другое действие</a></li>
                         <li><a href="#">Что-то еще</a></li>
                         <li class="divider"></li>
-                        <li><a href="Logout.po">Выйти</a></li>
+                        <li><a href="Security/Logout.po">Выйти</a></li>
                     </ul>
                 </li>
             </ul>
