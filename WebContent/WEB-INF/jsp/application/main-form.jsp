@@ -9,6 +9,7 @@
 <head>
     <jsp:include page="../static/bootstapCFG.jsp"/>
     <link rel="stylesheet" href="${resources}css/style.css">
+    <script src="${resources}js/application.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -68,7 +69,7 @@
                     </div>
                 </div>
                 <div class="form-block text-center">
-                    <button class="btn btn-cfg" type="button">Next</button>
+                    <button class="btn btn-cfg" type="button" onclick="orders()">Next</button>
                 </div>
             </form>
         </div>

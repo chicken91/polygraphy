@@ -12,25 +12,6 @@
         </webroots>
       </configuration>
     </facet>
-    <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/resources/spring/application-context.xml</file>
-          <file>file://$MODULE_DIR$/src/resources/hibernate/dbConfig.xml</file>
-          <file>file://$MODULE_DIR$/src/resources/spring/security.xml</file>
-          <file>file://$MODULE_DIR$/src/resources/spring/servlet-context.xml</file>
-        </fileset>
-      </configuration>
-    </facet>
-    <facet type="hibernate" name="Hibernate">
-      <configuration>
-        <datasource-map>
-          <unit-entry name="sessionFactory" value="dataSource" />
-        </datasource-map>
-        <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/resources/hibernate/dbConfig.xml" />
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -41,7 +22,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.3.11.Final" level="project" />
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1" level="project" />

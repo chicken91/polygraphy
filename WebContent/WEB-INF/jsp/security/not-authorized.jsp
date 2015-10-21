@@ -14,7 +14,7 @@
 <div class="container main">
     <div align="center">
         <h1>You are not authorized!</h1>
-        <a class="btn btn-cfg" href="Security/Login.po">Back</a>
+        <a class="btn btn-cfg" href="../Security/Login.po">Back</a>
     </div>
 </div>
 <jsp:include page="../static/footer.jsp"/>

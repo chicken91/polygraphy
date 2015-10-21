@@ -17,7 +17,7 @@
 <script src="${resources}js/jquery-2.1.3.js"></script>
 <script src="${resources}js/bootstrap.js"></script>
 
-<c:set var="req" value="${pageContext.request}"/>
+<%--<c:set var="req" value="${pageContext.request}"/>
 <c:set var="url" value="${req.requestURL}"/>
 <c:set var="uri" value="${req.requestURI}"/>
-<base href="${fn:substring(url, 0, fn:length(url) - fn:length(uri))}${req.contextPath}/">
+<base href="${fn:substring(url, 0, fn:length(url) - fn:length(uri))}${req.contextPath}/">--%>
