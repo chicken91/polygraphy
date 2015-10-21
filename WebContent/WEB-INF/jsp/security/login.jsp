@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <spring:url value="/resources/" var="resources"/>
 
@@ -22,7 +21,6 @@
             </form>
         </div>
     </div>
-    <jsp:include page="../static/footer.jsp"/>
 </div>
 </body>
 </html>
