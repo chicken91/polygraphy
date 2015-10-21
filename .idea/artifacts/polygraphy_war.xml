@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="polygraphy:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="Polygraphy.war">
-      <element id="artifact" artifact-name="polygraphy:war exploded" />
-    </root>
-  </artifact>
-</component>
