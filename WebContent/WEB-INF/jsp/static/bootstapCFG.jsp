@@ -12,10 +12,12 @@
 
 <link rel="stylesheet" href="${resources}css/bootstrap.css">
 <link rel="stylesheet" href="${resources}css/bootstrap-theme.css">
+<link rel="stylesheet" href="${resources}css/bootstrap-table.min.css">
 <%--<link rel="stylesheet" href="${resources}css/non-responsive.css">--%>
 
 <script src="${resources}js/jquery-2.1.3.js"></script>
 <script src="${resources}js/bootstrap.js"></script>
+<script src="${resources}js/bootstrap-table.min.js"></script>
 
 <%--<c:set var="req" value="${pageContext.request}"/>
 <c:set var="url" value="${req.requestURL}"/>
