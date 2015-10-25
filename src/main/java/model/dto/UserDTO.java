@@ -3,7 +3,7 @@ package main.java.model.dto;
 
 import java.io.Serializable;
 
-public class UserDTO implements Serializable {
+public class UserDTO {
     private Integer id;
     private String username;
     private String email;
