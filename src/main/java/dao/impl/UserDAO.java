@@ -17,11 +17,11 @@ public class UserDAO extends TemplateDAO<User> implements IUserDAO {
     }
 
     @Override
-    public User getUserByUsername(String username) {
+    public User getUserByName(String username) {
         Session session = getSessionFactory().openSession();
         try {
             Query query = session.createSQLQuery(
-                    "SELECT * FROM users WHERE username = :username")
+                    "SELECT * FROM users WHERE name = :username")
                     .addEntity(User.class)
                     .setString("username", username);
             List<User> result = query.list();

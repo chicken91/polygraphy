@@ -1,20 +1,11 @@
 package main.java.model.dto;
 
 
-import java.io.Serializable;
-
 public class UserDTO {
     private Integer id;
-    private String username;
+    private String name;
     private String email;
     private String role;
-
-    public UserDTO(Integer id, String username, String email, String role){
-        this.id = id;
-        this.username = username;
-        this.email = email;
-        this.role = role;
-    }
 
     public Integer getId() {
         return id;
@@ -24,12 +15,12 @@ public class UserDTO {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {

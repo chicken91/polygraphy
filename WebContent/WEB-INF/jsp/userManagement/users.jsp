@@ -19,15 +19,12 @@
 
         <div id="table-block">
             <c:url var="dataUrl" value="/UserManagement/getUsersTableData.po"/>
-            <table id="userManagementTable" class="table" data-toggle="table" data-method="post"
+            <table id="userManagementTable" class="table" data-toggle="table" data-url="${dataUrl}" data-method="post"
                    data-cache="false" data-search="true" data-clear-search="true" data-search-align="left"
-                   data-pagination="true" data-show-pagination-switch="true" data-sort-order="desc">
+                   data-pagination="true" data-sort-order="desc">
                 <thead>
                 <tr>
-                    <th data-field="id" data-align="center" data-sortable="true" data-width="200">
-                        id
-                    </th>
-                    <th data-field="username" data-align="center" data-sortable="true" data-width="200">
+                    <th data-field="name" data-align="center" data-sortable="true" data-width="200">
                         Пользователь
                     </th>
                     <th data-field="email" data-align="center" data-width="200">
@@ -48,7 +45,7 @@
                     <div class="modal-header modal-header-info">
                         Хедер
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body" id="modal-body-text">
                         БОДИ
                     </div>
                     <div class="modal-footer">

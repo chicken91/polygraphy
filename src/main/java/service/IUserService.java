@@ -2,9 +2,13 @@ package main.java.service;
 
 import main.java.model.User;
 
+import java.util.List;
+
 public interface IUserService {
 
     void createUser(User user);
 
-    User getUserByUsername(String username);
+    User getUserByName(String username);
+
+    List<User> getAll();
 }

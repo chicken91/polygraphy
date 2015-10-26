@@ -8,8 +8,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service("userService")
-public class UserServiceImpl implements IUserService {
+public class UserService implements IUserService {
 
     @Autowired
     private UserDAO userDAO;
@@ -24,8 +26,14 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     @Transactional
-    public User getUserByUsername(String username) {
-        return userDAO.getUserByUsername(username);
+    public User getUserByName(String username) {
+        return userDAO.getUserByName(username);
+    }
+
+    @Override
+    @Transactional
+    public List<User> getAll() {
+        return userDAO.getAll();
     }
 
 }

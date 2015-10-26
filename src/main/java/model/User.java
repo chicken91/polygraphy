@@ -11,8 +11,8 @@ public class User {
     @GeneratedValue
     @Column(name = "id")
     private int userId;
-    @Column(name = "username")
-    private String username;
+    @Column(name = "name")
+    private String name;
     @Column(name = "password")
     private String password;
     @Transient
@@ -25,7 +25,7 @@ public class User {
     private String role;
 
     public User() {
-        this.username = "";
+        this.name = "";
         this.password = "";
         this.confirmPassword = "";
         this.nickname = "N/A";
@@ -35,7 +35,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User: {" + username + ", " + nickname + ", " + email + ", " + password + "}";
+        return "User: {" + name + ", " + nickname + ", " + email + ", " + password + "}";
     }
 
 
@@ -47,12 +47,12 @@ public class User {
         this.userId = userId;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getPassword() {
