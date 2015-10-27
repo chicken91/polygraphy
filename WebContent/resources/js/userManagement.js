@@ -17,7 +17,7 @@ function getDataJson(){
 $(document).ready(function () {
     $('#userManagementTable').on('click-row.bs.table', function (e, row, $element) {
 
-        $('#modal-body-text').text(row['id'] + ' ' + row['username'] + ' ' + row['email']);
+        /*$('#modal-body-text').text(row['id'] + ' ' + row['name'] + ' ' + row['email']);*/
         $('#userManagementModal').modal();
 
     });

@@ -46,7 +46,18 @@
                         Хедер
                     </div>
                     <div class="modal-body" id="modal-body-text">
-                        БОДИ
+                        <form action="<c:url value="/changeProfile.po"/>" class="form-group text-center" method="POST">
+                            <h3>Информация</h3>
+                            <label for="modal-login-input">Логин</label>
+                            <input type="text"  class="form-control" id="modal-login-input"/>
+                            <label for="modal-email-input">Email</label>
+                            <input type="text"  class="form-control" id="modal-email-input"/>
+                            <label for="modal-role-input">Роль</label>
+                            <input type="text"  class="form-control" id="modal-role-input"/>
+                            <label for="modal-password-input">Новый пароль</label>
+                            <input type="text" class="form-control" id="modal-password-input"/>
+                            <button class="btn btn-cfg" type="submit">Изменить</button>
+                        </form>
                     </div>
                     <div class="modal-footer">
                         Футер
