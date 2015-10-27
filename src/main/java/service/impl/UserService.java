@@ -35,5 +35,4 @@ public class UserService implements IUserService {
     public List<User> getAll() {
         return userDAO.getAll();
     }
-
 }

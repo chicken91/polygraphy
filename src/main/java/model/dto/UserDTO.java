@@ -1,11 +1,23 @@
 package main.java.model.dto;
 
 
+import main.java.model.User;
+import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
+
+import java.util.Collection;
+import java.util.List;
+
 public class UserDTO {
     private Integer id;
     private String name;
     private String email;
     private String role;
+
+    public static List<UserDTO> transformUsersToListDTO(Collection<User> users) {
+        return new ModelMapper().map(users, new TypeToken<List<UserDTO>>() {
+        }.getType());
+    }
 
     public Integer getId() {
         return id;

@@ -1,19 +1,13 @@
 package main.java.controller;
 
-import main.java.model.User;
 import main.java.model.dto.UserDTO;
 import main.java.service.IUserService;
-import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 @Controller("UserManagementController")
@@ -31,10 +25,6 @@ public class UserManagementController {
     public
     @ResponseBody
     List<UserDTO> getTableData() {
-        return transformUsersToDTO(userService.getAll());
-    }
-
-    private List<UserDTO> transformUsersToDTO(List<User> users){
-        return new ModelMapper().map(users, new TypeToken<List<UserDTO>>() {}.getType());
+        return UserDTO.transformUsersToListDTO(userService.getAll());
     }
 }
