@@ -41,8 +41,6 @@
     float: left;
     width: calc(80% - 5px);
 }
-
-
 .form-main{
     width: 400px;
     /*margin: auto;*/
@@ -50,12 +48,20 @@
     margin-left: auto;
     margin-top: 150px;
 }
-
-
 .form-order{
     width: 600px;
     margin-right: auto;
     margin-left: auto;
 }
-
+.modal-body{
+    height: 400px;
+}
+.modal-content{
+    width: 400px;
+}
+.form-user-management{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
 

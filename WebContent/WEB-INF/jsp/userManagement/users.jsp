@@ -11,6 +11,7 @@
     <jsp:include page="../static/bootstapCFG.jsp"/>
     <link rel="stylesheet" href="${resources}css/style.css">
     <script src="${resources}js/userManagement.js"></script>
+
 </head>
 <body>
 <div class="wrapper">
@@ -40,24 +41,64 @@
 
 
         <div class="modal" id="userManagementModal">
-            <div class="modal-dialog">
+            <div class="modal-dialog" style="width: 400px">
                 <div class="modal-content">
                     <div class="modal-header modal-header-info">
                         Хедер
                     </div>
                     <div class="modal-body" id="modal-body-text">
-                        <form action="<c:url value="/changeProfile.po"/>" class="form-group text-center" method="POST">
-                            <h3>Информация</h3>
-                            <label for="modal-login-input">Логин</label>
-                            <input type="text"  class="form-control" id="modal-login-input"/>
-                            <label for="modal-email-input">Email</label>
-                            <input type="text"  class="form-control" id="modal-email-input"/>
-                            <label for="modal-role-input">Роль</label>
-                            <input type="text"  class="form-control" id="modal-role-input"/>
-                            <label for="modal-password-input">Новый пароль</label>
-                            <input type="text" class="form-control" id="modal-password-input"/>
-                            <button class="btn btn-cfg" type="submit">Изменить</button>
-                        </form>
+                        <div class="form-user-management">
+                            <form class="form-group text-center">
+                                <div class="h3 text-center">Информация</div>
+                                <div class="form-block">
+                                    <div class="form-label">
+                                        <label class="form-element" for="modal-login-input">Логин </label>
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" class="form-control form-element" id="modal-login-input"/>
+                                    </div>
+                                </div>
+                                <div class="form-block">
+                                    <div class="form-label">
+                                        <label class="form-element" for="modal-email-input">Email </label>
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" class="form-control form-element" id="modal-email-input"/>
+                                    </div>
+                                </div>
+                                <div class="form-block">
+                                    <div class="form-label">
+                                        <label class="form-element" for="modal-role-input">Роль </label>
+                                    </div>
+                                    <div class="form-input">
+                                        <select class="form-control form-element" id="modal-role-input">
+                                            <c:forEach items="${RolesList}" var="role">
+                                                <option>${role}</option>
+                                            </c:forEach>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-block">
+                                    <div class="form-label">
+                                        <label class="form-element" for="modal-password-input">Новый пароль </label>
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" class="form-control form-element" id="modal-password-input"/>
+                                    </div>
+                                </div>
+                                <div class="form-block" style="margin-top: 50px">
+                                    <div class="form-label">
+                                        <label class="form-element" for="modal-admin-password-input">Ваш пароль </label>
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" class="form-control form-element" id="modal-admin-password-input"/>
+                                    </div>
+                                </div>
+                                <div class="form-block text-center">
+                                    <button class="btn btn-cfg" type="button" onclick="editUser()">Изменить</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         Футер

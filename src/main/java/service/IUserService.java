@@ -1,6 +1,7 @@
 package main.java.service;
 
 import main.java.model.User;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -11,4 +12,7 @@ public interface IUserService {
     User getUserByName(String username);
 
     List<User> getAll();
+
+    @Transactional
+    void editUser(User user);
 }

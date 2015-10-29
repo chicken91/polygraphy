@@ -12,8 +12,10 @@
         </comment>
         <sql>
             # add new users
-            INSERT INTO `users` (id, name, password, nickname, role) VALUES ('1', 'chicken91', '$2a$10$/tJR.G48XDLTpz/Mrz9utOhEqgkj.cDzESgZE/4zAs97wp.7dJJ1G', 'chicken', 'ROLE_GOD');
-            INSERT INTO `users` (id, name, password, nickname, role) VALUES ('2', 'admin', '$2a$10$XKUrltMvMTysN0SZlNy9FOzn28XnlaA80657i9tSqWmS4wlY0Y.cO', 'Serega-admin', 'ROLE_ADMIN');
+            INSERT INTO `users` (id, name, password, email, nickname, role) VALUES ('1', 'chicken91', '$2a$10$/tJR.G48XDLTpz/Mrz9utOhEqgkj.cDzESgZE/4zAs97wp.7dJJ1G', 'chicken91@ukr.net', 'chicken', 'ROLE_ADMIN');
+            INSERT INTO `users` (id, name, password, email, nickname, role) VALUES ('2', 'admin', '$2a$10$XKUrltMvMTysN0SZlNy9FOzn28XnlaA80657i9tSqWmS4wlY0Y.cO', 'serega91@ukr.net', 'Serega-admin', 'ROLE_ADMIN');
+            INSERT INTO `users` (id, name, password, email, nickname, role) VALUES ('3', 'first-user', '$2a$10$/tJR.G48XDLTpz/Mrz9utOhEqgkj.cDzESgZE/4zAs97wp.7dJJ1G', 'user1@mail.com', 'user1', 'ROLE_USER');
+            INSERT INTO `users` (id, name, password, email, nickname, role) VALUES ('4', 'second-user', '$2a$10$/tJR.G48XDLTpz/Mrz9utOhEqgkj.cDzESgZE/4zAs97wp.7dJJ1G', 'user2@mail.com', 'user2', 'ROLE_USER');
         </sql>
     </changeSet>
 </databaseChangeLog>

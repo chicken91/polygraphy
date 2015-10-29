@@ -35,4 +35,12 @@ public class UserService implements IUserService {
     public List<User> getAll() {
         return userDAO.getAll();
     }
+
+    @Override
+    @Transactional
+    public void editUser(User user) {
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        user.setPassword(encoder.encode(user.getPassword()));
+        userDAO.update(user);
+    }
 }
