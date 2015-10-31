@@ -83,7 +83,7 @@
                                         <label class="form-element" for="modal-password-input">Новый пароль </label>
                                     </div>
                                     <div class="form-input">
-                                        <input type="text" class="form-control form-element" id="modal-password-input"/>
+                                        <input type="password" class="form-control form-element" id="modal-password-input"/>
                                     </div>
                                 </div>
                                 <div class="form-block" style="margin-top: 50px">
@@ -91,7 +91,7 @@
                                         <label class="form-element" for="modal-admin-password-input">Ваш пароль </label>
                                     </div>
                                     <div class="form-input">
-                                        <input type="text" class="form-control form-element" id="modal-admin-password-input"/>
+                                        <input type="password" class="form-control form-element" id="modal-admin-password-input"/>
                                     </div>
                                 </div>
                                 <div class="form-block text-center">

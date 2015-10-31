@@ -1,6 +1,8 @@
 package main.java.model;
 
 
+import org.hibernate.validator.constraints.NotBlank;
+
 import javax.persistence.*;
 
 
@@ -10,9 +12,11 @@ public class User {
     @Id
     @GeneratedValue
     @Column(name = "id")
-    private int userId;
+    private int id;
+    @NotBlank
     @Column(name = "name")
     private String name;
+    @NotBlank
     @Column(name = "password")
     private String password;
     @Transient
@@ -21,15 +25,11 @@ public class User {
     private String nickname;
     @Column(name = "email")
     private String email;
+    @NotBlank
     @Column(name = "role")
     private String role;
 
     public User() {
-        this.name = "";
-        this.password = "";
-        this.confirmPassword = "";
-        this.nickname = "N/A";
-        this.email = "N/A";
         this.role = Role.ROLE_USER;
     }
 
@@ -39,12 +39,12 @@ public class User {
     }
 
 
-    public int getUserId() {
-        return userId;
+    public int getId() {
+        return id;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

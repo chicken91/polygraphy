@@ -19,8 +19,8 @@
                     <ul class="dropdown-menu">
                         <sec:authorize access="hasAnyRole('ROLE_GOD', 'ROLE_ADMIN')">
                             <li><a href="../UserManagement/Users.po">Менеджер пользователей</a></li>
+                            <li class="divider"></li>
                         </sec:authorize>
-                        <li class="divider"></li>
                         <li><a href="../${pageContext.request.contextPath}/Security/Logout.po">Выйти</a></li>
                     </ul>
                 </li>

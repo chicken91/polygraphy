@@ -15,4 +15,10 @@ public interface IUserService {
 
     @Transactional
     void editUser(User user);
+
+    @Transactional
+    User getCurrentUser();
+
+    @Transactional
+    boolean validateSecurityPassword(String password);
 }
